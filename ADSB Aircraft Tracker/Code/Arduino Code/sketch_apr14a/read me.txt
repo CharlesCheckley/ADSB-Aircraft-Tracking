@@ -1,0 +1,37 @@
+This code is designed to work on an Arduino Nano 33 BLE. 
+
+This code opens a serial port which then accepts the following commands 
+
+STOP:
+stops all movement 
+
+Calibrate: 
+records the tracker's current position and heading as (0,0)
+
+Step: 
+Moves the motor's a set number of steps. 
+Example - Step 100 200 - moves the pan motor 100 steps and the tilt motor 200 steps
+
+GOTO: 
+moves the tracker to a specific position
+Example - GOTO 10 20 - goes to 10 degrees azimuth 20 degrees tilt
+
+get position:
+outputs the current tracker's position in steps
+
+get dposition
+outputs the current tracker's position in degrees
+
+microsteps: 
+sets the microstepping of the motor drivers
+Example - MICROSTEPS 16. Sets the motors to 1/16th microstepping 
+
+
+By default a USB serial connection to connect to the computer. To switch to a bluetooth seria connection a  bluetooth module must be connected and the serial port used changed in the code. 
+
+see: https://create.arduino.cc/projecthub/millerman4487/view-serial-monitor-over-bluetooth-fbb0e5
+
+Unfortunatly the Arduino Nano 33 BLE's build in bluetooth chipset cannot be used becaues it does not support a serial connection. 
+
+
+This code requires the TMC stepper and Accel Stepper libraries which can be installed using the Arduino IDE

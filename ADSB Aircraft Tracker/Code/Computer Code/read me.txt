@@ -1,0 +1,12 @@
+This code is designed to be ran on a computer/ raspberry pi. 
+It requires an instance of dump1090 or readsb to be running and the ip address in getData to be changed to the address of that instance. 
+
+
+getData - fetches the aircraft ADS-B data from either the dump1090/readsb 
+
+targeting calculator - calculates the desired azimuth and tilt angles to point the tracker at the aircraft 
+
+main - calls getData and targeting Calculator. Outputs the required azimuth and tilt angle to point the tracker at the closest aircraft. 
+
+
+It uses the Nlohmann json library and the Simple Serial Library

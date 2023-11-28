@@ -1,0 +1,9 @@
+{ "now" : 1648578481.006,
+    "messages" : 14019,
+    "aircraft" : [
+  {"hex":"48c121","type":"adsb_icao","flight":"RYR57MG ","alt_baro":7450,"alt_geom":7450,"gs":272.4,"ias":246,"mach":0.432,"track":262.41,"mag_heading":265.08,"true_heading":264.73,"baro_rate":-1216,"geom_rate":-1056,"squawk":"6605","emergency":"none","category":"A3","nav_qnh":1008.8,"nav_altitude_mcp":6016,"nav_heading":265.08,"lat":51.471133,"lon":-2.584686,"nic":8,"rc":186,"seen_pos":21.309,"version":2,"nic_baro":1,"nac_p":8,"nac_v":1,"sil":3,"sil_type":"perhour","gva":1,"sda":2,"alert":0,"spi":0,"mlat":[],"tisb":[],"messages":742,"seen":18.9,"rssi":-6.8},
+  {"hex":"48c122","type":"adsb_icao","flight":"EZY123 ","alt_baro":7450,"alt_geom":7450,"gs":272.4,"ias":246,"mach":0.432,"track":262.41,"mag_heading":265.08,"true_heading":264.73,"baro_rate":-1216,"geom_rate":-1056,"squawk":"6605","emergency":"none","category":"A3","nav_qnh":1008.8,"nav_altitude_mcp":6016,"nav_heading":265.08,"lat":50,"lon":-2,"nic":8,"rc":186,"seen_pos":21.309,"version":2,"nic_baro":1,"nac_p":8,"nac_v":1,"sil":3,"sil_type":"perhour","gva":1,"sda":2,"alert":0,"spi":0,"mlat":[],"tisb":[],"messages":742,"seen":18.9,"rssi":-6.8},
+  {"hex":"407568","type":"adsb_icao","category":"A3","lastPosition":{"lat":51.480258,"lon":-2.537613,"nic":8,"rc":186,"seen_pos":241.117},"version":2,"sil_type":"perhour","mlat":[],"tisb":[],"messages":1210,"seen":203.7,"rssi":-12.6},
+  {"hex":"4a8199","type":"mode_s","rr_lat":51.5,"rr_lon":-2.4,"mlat":[],"tisb":[],"messages":7,"seen":2.5,"rssi":-13.3}
+    ]
+  }
